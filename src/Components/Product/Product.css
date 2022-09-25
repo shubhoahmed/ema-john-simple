@@ -3,6 +3,7 @@
     width: 300px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    position: relative;
 
 }
 
@@ -19,4 +20,36 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product-item {
+    padding: 0 8px;
+}
+
+.product-item p {
+    margin: 7px 0;
+}
+
+.btn-cart {
+    width: 100%;
+    padding: 2px 0;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart .btn-text {
+    margin-right: 8px;
+}
+
+.btn-cart:hover {
+    background-color: orange;
 }
